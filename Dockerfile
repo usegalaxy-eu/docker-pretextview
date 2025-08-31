@@ -23,7 +23,6 @@ RUN \
 ENV APP_NAME="PretextView"
 
 ENV KEEP_APP_RUNNING=0
-
 ENV TAKE_CONFIG_OWNERSHIP=1
 
 # Set environment
