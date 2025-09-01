@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: quay.io/galaxy/pretextmap:${{ github.event.release.tag_name }}
+          tags: quay.io/galaxy/pretextview:${{ github.event.release.tag_name }}
 
 
